@@ -1,0 +1,28 @@
+
+
+// formatting tags
+
+
+<ul type="square, disc, circle" align="center">
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>
+
+<ol type="i"  start="5" align="center" >
+	<li></li>
+	<li></li>
+	<li></li>
+</ol>
+
+
+<dl  align="center" >
+	<dt></dt>
+	<dd></dd>
+</dl>
+
+
+- use of html entity (&nbsp;, &copy;)
+
+
+- <font> tag attribute property like color="" size="" face="";
