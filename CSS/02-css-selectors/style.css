@@ -1,0 +1,65 @@
+h2{
+		font-size:20px;
+		color:green;
+		
+}
+
+h1{
+	color:red;
+}
+
+body{
+	background-color:gray
+}
+
+
+
+.para1{
+
+	color:gray;
+	font-weight:600;
+	font-family:arial;
+	letter-spacing:3px;
+	word-spacing:20px;
+}
+
+.para2{
+	color:pink;
+	font-style:italic;
+	font-family:monospace;
+	
+}
+
+
+p{
+	background-color:pink
+}
+
+.text{
+	background-color:lightblue;
+	
+}
+
+#text{
+	 background-color:lightgreen; 
+} 
+
+
+.btn{
+	padding:3px 8px;
+	font-weight:600;
+	font-size:20px;
+	font-family:poppins;
+	letter-spacing:2px;
+}
+
+.btn-green{
+	color:white;
+	background:green;
+}
+
+.btn-orange{
+	color:white;
+	background:orange
+	
+}
