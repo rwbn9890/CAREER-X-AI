@@ -1,0 +1,41 @@
+
+.menu-icon{
+    border: 1px solid gray;
+    border-radius: 1px;
+    padding: 3px;
+    height: 10px;
+    width: 10px;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+    background-color: black;
+}
+
+.menu-icon{
+    background-color: red;
+}
+
+
+.ri-user-search-line{
+    font-size:40px
+}
+
+.para{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.para2{
+    font-family:"Knewave", system-ui;
+ ;
+}
+
+.title{
+      font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 60px;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
