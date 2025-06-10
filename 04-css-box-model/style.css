@@ -1,0 +1,64 @@
+*{
+    font-family: cursive;
+    color: rgba(0, 0, 0, 0.753);
+       box-sizing: border-box;
+       margin:0;
+       padding:0;
+}
+
+
+.box{
+    background-color: gainsboro;
+    width : 200px;
+    height: 200px;
+/* 
+    margin-top:10px;
+    margin-left:20px;
+    margin-right:30px;
+    margin-bottom:40px; */
+
+    margin: 40px 30px 20px 10px;
+    padding:10px 20px 30px 40px;
+
+}
+
+/* we can add height and width to only block tags */
+
+h1{
+    color:black
+}
+
+.box1{
+    width:200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: auto;
+
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet; */
+
+    border: 5px dashed blueviolet;
+
+    /* border-top-left-radius: 100px;
+    border-top-right-radius: 100px; */
+
+    border-radius: 50%;
+   border-radius: 0% 100% 12% 88% / 1% 85% 15% 99% 
+}
+
+.pic{
+    width:300px;
+
+    border:10px groove green;
+    border-radius: 20px;
+}
+
+
+.bx{
+    width: 300px;
+    height: 100px;
+    border: 2px solid green;
+    background-color: gainsboro;
+    border-radius: 50px;
+}
