@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding-top: 150px;
+    height: 100vh;
+  
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+.bg1{
+    text-align: center;
+    color: white;
+      background-image: url('https://wallpapersok.com/images/hd/epic-moment-from-avengers-in-4k-jcm1nji0j5z8qx6n.jpg');
+}
+.bg2{
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFn9eeGvUVeRwQ_iklZ5SSEqG8uEAhQyYbKw&s');
+}
+
+.bg3{
+    text-align: center;
+    color: black;
+      background: url('https://wallpapercat.com/w/full/0/0/4/2071498-3840x2160-desktop-4k-captain-america-civil-war-background-image.jpg'), rgba(255, 255, 255, 0.377);
+
+      background-blend-mode: overlay;
+}
+
+.bg{
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMVp7VcC35GEa-fa2zVVIBDTPWJnwd9Mu_dA&s');
+}
+
+

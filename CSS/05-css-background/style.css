@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+.box1{
+    background-image: linear-gradient(242deg, orange , white, green)
+}
+
+.box2{
+    background-image: radial-gradient(circle, orange, white, green);
+}
+
+.box3{
+    border-radius: 50%;
+    background-image: conic-gradient( orange, white, green, orange);
+}
+
+.box4{
+    padding: 20px;
+    background-image: linear-gradient(  white, lightblue );
+}
+
+.box5{
+    border: 1px solid green;
+
+ width:80%;
+ height: 500px;
+
+
+    background-image: url('https://assets.weforum.org/article/image/0ZUBmNNVLRCfn3NdU55nQ00UF64m2ObtcDS0grx02fA.jpg');
+
+    /* background-size: contain; */
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    /* background-position: -200px 0px; */
+}
+
+.box5 h1{
+    font-family: cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+.container{
+    height: 100vh;
+    /* background:url('https://images.pexels.com/photos/618079/pexels-photo-618079.jpeg?cs=srgb&dl=pexels-apasaric-618079.jpg&fm=jpg'), #000000a3; */
+
+
+    background:url('https://images.pexels.com/photos/618079/pexels-photo-618079.jpeg?cs=srgb&dl=pexels-apasaric-618079.jpg&fm=jpg'),linear-gradient(#000000a3, rgba(0, 0, 255, 0.267)) ;
+
+    background-blend-mode: overlay;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+.container h1{
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    
+    width: 50%;
+    margin: 20% auto;
+}
+
