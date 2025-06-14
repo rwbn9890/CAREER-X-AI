@@ -1,0 +1,45 @@
+h3{
+    color: blue;
+    background-color: lightcyan;
+    font-size:20px
+}
+
+h4{
+    color:blue
+}
+
+.para{
+    color: gray;
+    background-color: whitesmoke;
+    font-style: italic;
+}
+
+.para1{
+    font-family: cursive;
+}
+
+.para2{
+    font-family: monospace;
+}
+
+#para3{
+    font-family: arial;
+}
+#pr{
+    color: green;
+    background-color: lightgreen;
+    font-size: 30px;
+}
+
+
+b{
+    color:red
+}
+
+.bold{
+    color: green;
+}
+
+#bold{
+    color: orange;
+}

@@ -1,0 +1,36 @@
+p{
+    font-size:20px;
+    font-family: arial;
+    font-weight: 400;
+    font-style:oblique;
+
+    text-align: start;
+    text-indent: 300px;
+    text-decoration:underline;
+    text-transform: capitalize;
+
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 40px;
+
+
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+.list{
+    list-style:upper-roman;
+}
+
+.list2{
+    list-style: "🚩";
+}
+
+.list3{
+    list-style: "\27B1";
+}
