@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: fit-content;
+    border: 15px ridge rgb(0, 66, 0);
+    margin: auto;
+
+}
+
+.bx{
+    width: 150px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    line-height: 150px;
+}
+
+.bx1{
+    background-color: #eeeed2;
+}
+
+.bx2{
+    background-color: #769656;
+}
+
+.cl{
+    clear: both;
+}

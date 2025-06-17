@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1000px;
+    /* height: 500px; */
+    margin: auto;
+    border: 1px solid gray;
+}
+
+.box{
+    width:150px;
+    height:150px;
+}
+
+.box1{
+    background-color: orange;
+    float: left;
+}
+
+.box2{
+    float: left;
+    background-color: green;
+}
+
+.cl{
+    clear: both;
+}

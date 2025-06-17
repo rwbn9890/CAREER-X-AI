@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+
+}
+
+.head1{
+    display: inline;
+    
+}
+
+.head2{
+    display: inline;
+    width: 500px;
+    height: 200px;
+    background-color: gainsboro;
+}
+
+.bold{
+    display: block;
+}
+
+small{
+    display: block;
+    width: 500px;
+    height: 200px;
+    border: 1px solid green;
+}
+
+.box-block{
+    margin: auto;
+    width: fit-content;
+}
+.box{
+    display: inline-block;
+    margin: auto;
+    width: 200px;
+    height: 250px;
+    /* border:2px solid black */
+
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px;
+    padding: 10px;
+}
