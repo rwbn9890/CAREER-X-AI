@@ -1,0 +1,85 @@
+*{
+    font-size: 30px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width:200px;
+    height: 200px;
+}
+
+.relative{
+    background-color: lightblue;
+    position: relative;
+    top:-50px;
+    left: 200px
+}
+
+.absolute{
+    background-color: pink;
+    position: absolute;
+    right:10%;
+    top:50%;
+}
+
+.fixed{
+    background-color: lightgreen;
+    position: fixed;
+    top: 500px;
+    left: 1000px;
+}
+
+.sticky{
+    background-color: gainsboro;
+    position: sticky;
+    top:50px;
+    bottom: 50px;
+}
+
+.container{
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+
+    position: relative;
+}
+
+.bx{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.bx:hover{
+    rotate: 45deg;   
+}
+
+
+.contact{
+   
+    border:1px solid gray;
+    margin: 100px 0px;
+}
+
+.contact > div{
+    border:1px solid red;
+    display: inline-block;
+    width: 40%;
+    padding:50px;
+}
+
+.contact label, input, textarea{
+     font-size: 20px;
+}
+
+.contact input{
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
