@@ -1,0 +1,60 @@
+
+
+.box{
+    width: 100px;
+    height: 100px;
+   
+    margin: 50px;
+
+}
+
+.box1{ 
+    background-color: purple;
+    transition: all 2s;
+}
+
+.box1:hover{
+    transform: rotate(360deg);
+}
+
+
+.box2{
+    background-color: fuchsia;
+    transition: all 0.5s 1s;
+}
+
+.box2:hover{
+    width: 500px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    border: 2px solid gray;
+}
+
+.container .box{
+    background-color: orange;
+   
+}
+
+.time1{
+    transition: all 4s linear ;
+}
+.time2{
+    transition: all 4s ease-in ;
+}
+.time3{
+    transition: all 4s ease-out ;
+}
+.time4{
+    transition: all 4s ease-in-out ;
+}
+.time5{
+    transition: all 4s cubic-bezier(1, 0.82, 0.165,0.075);
+}
+
+.container:hover .box{
+    width: 600px;
+}
+
