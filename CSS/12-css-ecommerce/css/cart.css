@@ -1,0 +1,33 @@
+
+
+.remove-btn{
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid gainsboro;
+    color: gray;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.remove-btn:hover{
+    color: black;
+    background-color: gainsboro;
+}
+
+
+.table{
+    margin: 0;
+}
+.table-head{
+    background-color: gainsboro;
+}
+.table tr{
+    text-align: center;
+}
+
+.table td{
+    border-bottom: 2px solid gainsboro;
+}
+.table th{
+    padding: 10px
+}
