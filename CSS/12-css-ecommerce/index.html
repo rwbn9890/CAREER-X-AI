@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>e-commerce</title>
 </head>
 <body>
 
     <header>
-        <div class="navbar">
-            <h2 class="logo">
+        <div class="navbar animate__animated animate__backInDown">
+            <h2 class="logo animate__animated animate__rubberBand animate__repeat-3">
                <img width="30px" src="./img/trolley.png" /> E Com 
             </h2>
 
-            <nav class="nav">
-                <a class="nav-link" href="index.html">Home</a>
-                <a class="nav-link" href="">About</a>
-                <a class="nav-link" href="">Products</a>
-                <a class="nav-link" href="">Contact</a>
+            <nav class="nav ">
+                <a class="nav-link animate__animated animate__backInDown" href="index.html">Home</a>
+                <a class="nav-link animate__animated animate__backInDown  animate__delay-1s" href="">About</a>
+                <a class="nav-link animate__animated animate__backInDown  animate__delay-2s" href="">Products</a>
+                <a class="nav-link animate__animated animate__backInDown  animate__delay-3s" href="">Contact</a>
                 <button class="zoom-in nav-btn">Login</button>
                   <a href="cart.html" ><i class="fa-solid fa-cart-shopping"></i> - 2</a>
             </nav>
@@ -30,7 +31,7 @@
     <section>
 
         <div class="container">
-            <div class="float-left">
+            <div class="float-left animate__animated animate__lightSpeedInLeft">
                 <input class="search" type="text" placeholder="🔍 Search Products">
                 <button class=" btn-close">
                     <i class="fa-solid fa-xmark"></i>
@@ -39,7 +40,7 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
             </div>
-            <div class="float-right">
+            <div class="float-right animate__animated animate__lightSpeedInLeft ">
                 <button class="zoom-in btn btn-orange">Sort Price ⬆️</button>
                 <button class="zoom-in btn btn-green">
                     Filter 
@@ -50,7 +51,7 @@
         </div>
 
         <div class="container">
-            <div class="card slide-up">
+            <div class="card slide-up animate__animated animate__rotateInDownLeft">
                 <img class="card-img" src="img/sunflower-oil.jpg" alt="">
                 <div class="card-body">
                     <div>
@@ -64,7 +65,7 @@
                     <button class="zoom-in btn btn-green">Add</button>
                 </div>
             </div>
-            <div class="card slide-up">
+            <div class="card slide-up animate__animated animate__slideInDown ">
                 <img class="card-img" src="img/chan-dal.jpg" alt="">
                 <div class="card-body">
                     <div>
@@ -78,7 +79,7 @@
                     <button class="zoom-in btn btn-green">Add</button>
                 </div>
             </div>
-            <div class="card slide-up">
+            <div class="card slide-up animate__animated animate__slideInUp">
                 <img class="card-img" src="img/ghee.jpg" alt="">
                 <div class="card-body">
                     <div>
@@ -92,7 +93,7 @@
                     <button class="zoom-in btn btn-green">Add</button>
                 </div>
             </div>
-            <div class="card slide-up">
+            <div class="card slide-up animate__animated animate__rotateInDownRight">
                 <img class="card-img" src="img/honey.jpg" alt="">
                 <div class="card-body">
                     <div>
@@ -106,7 +107,7 @@
                     <button class="zoom-in btn btn-green">Add</button>
                 </div>
             </div>
-            <div class="card slide-up">
+            <div class="card slide-up animate__animated animate__rotateInUpLeft">
                 <img class="card-img" src="img/paneer.png" alt="">
                 <div class="card-body">
                     <div>
@@ -120,7 +121,7 @@
                     <button class="zoom-in btn btn-green">Add</button>
                 </div>
             </div>
-            <div class="card slide-up">
+            <div class="card slide-up animate__animated animate__slideInUp">
                 <img class="card-img" src="img/rice.jpg" alt="">
                 <div class="card-body">
                     <div>
@@ -134,7 +135,7 @@
                     <button class="zoom-in btn btn-green">Add</button>
                 </div>
             </div>
-            <div class="card slide-up">
+            <div class="card slide-up animate__animated animate__slideInDown">
                 <img class="card-img" src="img/sunflower-oil.jpg" alt="">
                 <div class="card-body">
                     <div>
@@ -148,7 +149,7 @@
                     <button class="zoom-in btn btn-green">Add</button>
                 </div>
             </div>
-            <div class="card slide-up">
+            <div class="card slide-up animate__animated animate__rotateInUpLeft">
                 <img class="card-img" src="img/sunflower-oil.jpg" alt="">
                 <div class="card-body">
                     <div>
@@ -162,20 +163,7 @@
                     <button class="zoom-in btn btn-green">Add</button>
                 </div>
             </div>
-            <div class="card slide-up">
-                <img class="card-img" src="img/sunflower-oil.jpg" alt="">
-                <div class="card-body">
-                    <div>
-                        <h4  class="card-title float-left">400 /-</h4>
-                        <h4  class="card-title float-right">⭐⭐⭐⭐</h4>
-                    </div>
-                    <div class="card-text">
-                        <h4 class="card-title">Sunflower</h4>
-                    </div>
-                    <button class="zoom-in btn btn-orange">More</button>
-                    <button class="zoom-in btn btn-green">Add</button>
-                </div>
-            </div>
+
         </div>
     </section>
 
@@ -183,7 +171,7 @@
 
     <footer class="bg-dark">
         <div class="container b-red">
-            <div class="footer-col">
+            <div class="footer-col animate__animated animate__rollIn animate__delay-1s animate__faster	">
                 <h4>Quick Links</h4>
                 <ul class="footer-links">
                     <li>
@@ -206,7 +194,7 @@
                     <a href=""><i class="fa-brands fa-square-github"></i></a>
                 </div>
             </div>
-            <div class="footer-col">
+            <div class="footer-col animate__animated animate__rollIn animate__delay-2s animate__faster	">
                 <h4>Quick Links</h4>
                 <ul class="footer-links">
                     <li>
@@ -223,7 +211,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer-col">
+            <div class="footer-col animate__animated animate__rollIn animate__delay-3s animate__faster	">
                 <h4>Quick Links</h4>
                 <ul class="footer-links">
                     <li>
@@ -240,7 +228,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer-col">
+            <div class="footer-col animate__animated animate__rollIn animate__delay-4s animate__faster	">
                 <h4>Contacts</h4>
                 <ul class="footer-links">
                     <li>
