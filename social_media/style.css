@@ -76,6 +76,10 @@
     width: 30%;
 }
 
+.box-5{
+    width: 18%;
+}
+
 
 .sidebar-bottom{
     width: 250px;
@@ -91,3 +95,90 @@
     padding: 10px;
     border-radius: 10px;
 }
+
+
+/* VIEW POST CSS STARTED */
+
+
+.post{
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    padding: 10px;
+position: relative;
+    /* background-color:; */
+
+}
+
+.post-img{
+    width: 100%;
+}
+
+.post-btn{
+    position: relative;
+    border: none;
+    background-color: transparent;
+    border: 1px solid rgba(211, 211, 211, 0.247);
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.post-btn:hover{
+    background-color: gainsboro;
+}
+.fav{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: red;
+    background-color: white;
+}
+
+.menu{
+    position: absolute;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.post-date{
+    width: fit-content;
+    padding: 1px 10px;
+    border-radius: 5px;
+    background-color: rgba(220, 220, 220, 0.247);
+    color: gray;
+    border: none;
+    font-size: 12px;
+    right: 10px;
+}
+
+
+.post-body{
+    padding: 10px;
+}
+.post-body h4{
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.my-2{
+    margin: 8px 0px;
+}
+
+.connect-btn{
+padding: 5px 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn-blue{
+    background-color: #5783db;
+    color: white;
+}
+
+.btn-green{
+    background-color: #5dbea3;
+    color: white;
+}
+/* VIEW POST CSS ENDED */
