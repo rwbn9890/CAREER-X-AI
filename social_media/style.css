@@ -64,9 +64,9 @@
 .info{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 5px;
-    padding: 20px;
-    background-color: lightblue;
-    height: 300px;
+    padding: 10px;
+    /* background-color: lightblue; */
+    /* height: 300px; */
 }
 .box-full{
  width:100%;
@@ -182,3 +182,27 @@ padding: 5px 15px;
     color: white;
 }
 /* VIEW POST CSS ENDED */
+
+
+
+
+.connection img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid gainsboro;
+    padding: 1px;
+}
+
+.connection button{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid gray;
+}
+
+.input{
+    padding: 10px ;
+    border: 1px solid gray;
+    font-size: 20px;
+}
